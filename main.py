@@ -6,7 +6,7 @@ from OpenGL.GLU import *
 
 vertice = (
     (0,1),
-    (1,1),
+    (-1,0),
     (1,0)
     )
 
