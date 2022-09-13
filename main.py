@@ -25,7 +25,6 @@ def Quadrado():
             glVertex2iv(vertice[vertex])
     glEnd()
 
-
 def main():
     pygame.init() #Inicialize todos os módulos pygame importados
     display = (700, 700) #Define o tamanho da tela (Plano)
@@ -48,8 +47,6 @@ def main():
               0  # z
               )  # Transformação geometrica de rotação
 
-
-
     glColor3f(1,1,0)
 
     while True:
@@ -63,6 +60,5 @@ def main():
         Quadrado()
         pygame.display.flip()
         #pygame.time.wait(10)
-
 
 main()
